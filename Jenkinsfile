@@ -69,5 +69,12 @@ pipeline {
       }
     }
   }
+   post {
+    always {
+      script {
+        sh "docker rmi ${IMAGE_NAME_SERVER} ${IMAGE_NAME_CLIENT}"
+      }
+    }
+  }
  
 }
