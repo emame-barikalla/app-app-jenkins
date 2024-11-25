@@ -13,7 +13,7 @@ pipeline {
       steps {
         git branch: 'main',
             url: 'git@github.com:emame-barikalla/mern-app-jenkins.git',
-            credentialsId: 'Github_ssh'
+            credentialsId: 'github_ssh'
       }
     }
     stage('Build Server Image') {
