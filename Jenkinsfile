@@ -11,7 +11,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'main',
+        git branch: 'master',
             url: 'git@github.com:emame-barikalla/mern-app-jenkins.git',
             credentialsId: 'github_ssh'
       }
