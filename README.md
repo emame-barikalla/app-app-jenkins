@@ -6,7 +6,7 @@ This repository contains a Jenkins pipeline setup for automating the CI/CD proce
 
 The project involves setting up Jenkins to work with a Github repository, automating key processes such as:
 
-- Cloning the GitLab repository
+- Cloning the Github repository
 - Installing dependencies
 - Running tests
 - Building the application
